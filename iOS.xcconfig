@@ -7,6 +7,7 @@
 //
 
 SDKROOT = iphoneos6.1
+FRAMEWORK_SEARCH_PATHS = $(SDKROOT)/Developer/Library/Frameworks "$(DEVELOPER_LIBRARY_DIR)/Frameworks" $(inherited)
 
 ARCHS = $(ARCHS_STANDARD_32_BIT)
 VALID_ARCHS = armv7 armv7s i386
