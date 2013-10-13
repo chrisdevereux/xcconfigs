@@ -1,0 +1,11 @@
+//
+//  MacTests.xcconfig
+//  Visor-RT
+//
+//  Created by Chris Devereux on 18/06/2013.
+//
+//
+
+#include "Mac.xcconfig"
+
+OTHER_LDFLAGS = -ObjC

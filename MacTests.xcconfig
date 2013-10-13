@@ -1,0 +1,15 @@
+//
+//  MacTests.xcconfig
+//  Visor-RT
+//
+//  Created by Chris Devereux on 18/06/2013.
+//
+//
+
+#include "Mac.xcconfig"
+
+GCC_PREFIX_HEADER = MacTests-Prefix.pch
+USER_HEADER_SEARCH_PATHS = $(PROJECT_DIR)/../Tests $(BUILT_PRODUCTS_DIR) $(inherited)
+OTHER_LDFLAGS = -ObjC
+WRAPPER_EXTENSION = octest
+FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks" $(inherited)

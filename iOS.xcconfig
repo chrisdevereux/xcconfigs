@@ -1,0 +1,15 @@
+//
+//  iOS.xcconfig
+//  Visor-RT
+//
+//  Created by Chris Devereux on 17/09/2013.
+//
+//
+
+SDKROOT = iphoneos6.1
+
+ARCHS = $(ARCHS_STANDARD_32_BIT)
+VALID_ARCHS = armv7 armv7s i386
+
+TARGETED_DEVICE_FAMILY = 1,2
+IPHONEOS_DEPLOYMENT_TARGET = 6.1

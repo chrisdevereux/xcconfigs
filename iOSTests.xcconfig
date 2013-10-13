@@ -1,0 +1,14 @@
+//
+//  iOSTests.xcconfig
+//  
+//
+//  Created by Chris Devereux on 18/09/2013.
+//
+//
+
+#include "iOS.xcconfig"
+
+USER_HEADER_SEARCH_PATHS = $(PROJECT_DIR)/../Tests $(inherited)
+OTHER_LDFLAGS = -ObjC
+WRAPPER_EXTENSION = octest
+FRAMEWORK_SEARCH_PATHS = $(inherited) 

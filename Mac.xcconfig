@@ -1,0 +1,12 @@
+//
+//  Mac.xcconfig
+//  VisorRT
+//
+//  Created by Chris Devereux on 18/06/2013.
+//
+//
+
+SDKROOT = macosx10.7
+GCC_PREFIX_HEADER = Mac-Prefix.pch
+ARCHS = $(ARCHS_STANDARD_64_BIT)
+VALID_ARCHS = x86_64

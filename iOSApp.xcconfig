@@ -1,0 +1,11 @@
+//
+//  iOS.xcconfig
+//  Visor-RT
+//
+//  Created by Chris Devereux on 17/09/2013.
+//
+//
+
+#include "iOS.xcconfig"
+
+OTHER_LDFLAGS = -ObjC
